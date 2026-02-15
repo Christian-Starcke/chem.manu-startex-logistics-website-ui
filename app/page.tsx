@@ -10,52 +10,52 @@ export default function HomePage() {
   const services = [
     {
       icon: Truck,
-      title: "Drayage Coordination",
+      title: "Flatbed Energy Infrastructure",
       description:
-        "Expert coordination of containerized chemical and industrial cargo movements across the Southeast and Gulf Coast.",
+        "Specialized flatbed transportation for energy pipe, steel, and construction materials across Texas, Louisiana, and Oklahoma.",
     },
     {
       icon: Ship,
-      title: "Short-Haul Brokerage",
-      description: "Efficient brokerage services for short-distance transportation of specialized cargo.",
+      title: "Heavy Haul Equipment",
+      description: "Transportation services for large-scale energy and construction equipment, machinery, and infrastructure components.",
     },
     {
       icon: Waves,
-      title: "Carrier Network",
-      description: "Access to our extensive network of qualified carriers for chemical and industrial transportation.",
+      title: "Expedited & Time-Critical",
+      description: "Urgent transportation solutions for oilfield equipment and time-sensitive energy sector freight.",
     },
   ]
 
   const whyChooseUs = [
     {
       icon: Shield,
-      title: "Non-Asset Broker",
-      description: "We focus on coordination and carrier management—no fleet overhead means flexibility and competitive rates.",
-    },
-    {
-      icon: Clock,
-      title: "24/7 Operations",
-      description: "Round-the-clock dispatch and support ensures your cargo keeps moving, day or night.",
-    },
-    {
-      icon: Award,
-      title: "Industry Expertise",
-      description: "Specialized experience in chemical and industrial logistics with deep knowledge of compliance requirements.",
-    },
-    {
-      icon: Users,
-      title: "Dedicated Partnership",
-      description: "Long-term relationships built on trust, transparency, and consistent performance.",
+      title: "Specialized Niche Expertise",
+      description: "Deep focus on energy infrastructure and construction freight across flatbed, heavy haul, and expedited services.",
     },
     {
       icon: Globe,
-      title: "Regional Coverage",
-      description: "Extensive carrier network spanning the Gulf Coast and Southeast from Houston to Raleigh.",
+      title: "Strategic Geographic Positioning",
+      description: "Gulf Coast energy market concentration with strong carrier networks in Texas, Louisiana, and Oklahoma.",
+    },
+    {
+      icon: Award,
+      title: "Low Regulatory Friction",
+      description: "Non-hazmat focus reduces complexity, risk, and operational overhead for faster, smoother operations.",
+    },
+    {
+      icon: Users,
+      title: "Carrier Network Depth",
+      description: "Strong relationships and high carrier availability in target markets ensure reliable capacity.",
     },
     {
       icon: CheckCircle,
-      title: "Reliable Execution",
-      description: "Meticulous attention to appointments, documentation, and exception resolution on every shipment.",
+      title: "Flexible Service Model",
+      description: "Multiple engagement options: Freight Brokerage, Managed Transportation Provider, and 3PL services.",
+    },
+    {
+      icon: Clock,
+      title: "Multi-Service Capability",
+      description: "Single provider for flatbed, heavy haul, and expedited transportation needs across the energy sector.",
     },
   ]
 
@@ -69,10 +69,10 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              Expert Drayage &amp; Short-Haul Services
+              Energy Infrastructure Freight Solutions
             </h1>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-primary-foreground/90 sm:text-xl">
-              StarTex provides drayage and short-haul brokerage services for containerized chemical and industrial cargo across the Southeast and Gulf Coast. 
+              StarTex Logistics specializes in energy infrastructure and construction freight transportation across the Gulf Coast. Freight brokerage, managed transportation, and 3PL services in Texas, Louisiana, and Oklahoma.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Button size="lg" variant="secondary" asChild>
@@ -96,16 +96,16 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Your Trusted Partner in Chemical & Industrial Logistics</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Your Trusted Partner in Energy Infrastructure Freight</h2>
               <div className="mt-6 space-y-4 text-pretty leading-relaxed text-muted-foreground">
                 <p>
-                  StarTex is a non-asset drayage and short-haul broker specializing in containerized chemical and industrial cargo. With offices in Houston, TX and Raleigh, NC, we provide comprehensive logistics coordination across the Southeast and Gulf Coast regions.
+                  StarTex Logistics is a comprehensive logistics solutions provider specializing in energy infrastructure and construction freight across the Gulf Coast region. We deliver solutions through three core service models: Freight Brokerage, Managed Transportation Provider, and 3PL services.
                 </p>
                 <p>
-                  Our expertise lies in managing the complete drayage lifecycle—from carrier assignment and appointment scheduling to execution and exception resolution. We act as the critical connection between shippers and reliable transportation capacity.
+                  Our primary focus is flatbed energy infrastructure freight—transporting energy pipe, steel, and construction materials across Texas, Louisiana, and Oklahoma. We also provide heavy haul construction and energy equipment transportation, plus expedited time-critical services for the oilfield and energy sectors.
                 </p>
                 <p>
-                  We believe exceptional brokerage is built on expertise, integrity, and consistent execution. That's why shippers and carriers alike trust StarTex to keep their cargo moving.
+                  We believe exceptional logistics is built on specialized expertise, strategic positioning, and consistent execution. That's why shippers and carriers alike trust StarTex to keep their energy infrastructure freight moving efficiently.
                 </p>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Our Core Services</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              Specialized brokerage solutions for chemical and industrial logistics
+              Specialized transportation solutions for energy infrastructure and construction freight
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function HomePage() {
                 Why Choose StarTex?
               </h2>
               <p className="mt-4 text-pretty text-muted-foreground">
-                We're more than a freight broker—we're your logistics partner. Here's what sets us apart in chemical and industrial transportation.
+                We're more than a freight broker—we're your logistics partner. Here's what sets us apart in energy infrastructure and construction freight transportation.
               </p>
               <div className="mt-8">
                 <Button size="lg" asChild>
@@ -195,10 +195,10 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
-              Ready to Optimize Your Logistics?
+              Ready to Move Your Energy Infrastructure Freight?
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-primary-foreground/90">
-              Contact us today to discuss your transportation needs
+              Contact us today to discuss your flatbed, heavy haul, or expedited transportation needs across Texas, Louisiana, and Oklahoma
             </p>
             <div className="mt-6">
               <Button size="lg" variant="secondary" asChild>

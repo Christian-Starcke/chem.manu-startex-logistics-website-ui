@@ -8,29 +8,6 @@ import { Card } from "@/components/ui/card"
 import Link from "next/link"
 import { Ship, Container, Waves, Factory } from "lucide-react"
 
-const additionalServices = [
-  {
-    icon: Ship,
-    title: "Customized Logistics Solutions",
-    description: "Tailored services to meet your unique shipping needs.",
-  },
-  {
-    icon: Container,
-    title: "Supply Chain Management",
-    description: "End-to-end management of your supply chain for efficiency and reliability.",
-  },
-  {
-    icon: Waves,
-    title: "Intermodal Services",
-    description: "Efficient movement of goods via sea, rail, and road for cost savings and flexibility.",
-  },
-  {
-    icon: Factory,
-    title: "Warehouse Management",
-    description: "Expert handling of warehousing operations to ensure timely delivery and inventory accuracy.",
-  },
-]
-
 export default function ServicesPage() {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -39,27 +16,27 @@ export default function ServicesPage() {
   const industries = [
     {
       icon: Factory,
-      name: "Chemical Manufacturing",
+      name: "Energy Infrastructure",
       description:
-        "Reliable drayage for chemical producers moving containerized products from Gulf Coast and Southeast ports to production facilities, storage sites, and customers.",
+        "Transportation services for energy pipe, steel, and construction materials supporting oil & gas, renewable energy, and energy infrastructure projects across the Gulf Coast.",
     },
     {
       icon: Ship,
-      name: "Industrial Facilities",
+      name: "Construction Projects",
       description:
-        "Coordinated short-haul transportation for heavy industrial operations requiring specialized handling and precise delivery scheduling.",
+        "Heavy haul and flatbed services for large-scale construction projects, including equipment, machinery, and building materials for commercial and industrial development.",
     },
     {
       icon: Container,
-      name: "Distribution Centers",
+      name: "Oilfield Operations",
       description:
-        "Seamless container movement between ports, rail ramps, and distribution hubs with real-time tracking and proactive exception management.",
+        "Expedited and time-critical transportation for oilfield equipment, drilling supplies, and energy sector freight requiring urgent delivery across Texas, Louisiana, and Oklahoma.",
     },
     {
       icon: Waves,
-      name: "Port Operations",
+      name: "Industrial Manufacturing",
       description:
-        "Expert coordination with Gulf Coast and Southeast port terminals for efficient container pickup, delivery, and chassis management.",
+        "Reliable transportation for industrial manufacturing facilities moving large equipment, components, and materials throughout the Gulf Coast energy markets.",
     },
   ]
 
@@ -74,7 +51,7 @@ export default function ServicesPage() {
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl">Our Services</h1>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-primary-foreground/90">
-              Comprehensive brokerage solutions designed for chemical and industrial logistics across the Southeast and Gulf Coast
+              Comprehensive transportation solutions for energy infrastructure and construction freight across Texas, Louisiana, and Oklahoma
             </p>
           </div>
         </div>
@@ -86,7 +63,7 @@ export default function ServicesPage() {
           <div className="text-center mb-12">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Service Overview</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              A comprehensive look at our brokerage capabilities
+              A comprehensive look at our energy infrastructure freight capabilities
             </p>
           </div>
 
@@ -96,48 +73,48 @@ export default function ServicesPage() {
               {/* Top Header Bar */}
               <div className="grid grid-cols-4">
                 <div className="col-span-3 bg-primary px-6 py-4 border-r-2 border-primary-foreground/20">
-                  <h3 className="text-lg font-bold text-primary-foreground tracking-wide uppercase">Brokerage Services</h3>
+                  <h3 className="text-lg font-bold text-primary-foreground tracking-wide uppercase">Transportation Services</h3>
                 </div>
                 <div className="col-span-1 bg-accent px-6 py-4">
-                  <h3 className="text-lg font-bold text-accent-foreground tracking-wide uppercase">Coordination</h3>
+                  <h3 className="text-lg font-bold text-accent-foreground tracking-wide uppercase">Service Models</h3>
                 </div>
               </div>
 
               {/* Service Columns */}
               <div className="grid grid-cols-4 bg-background">
-                {/* Drayage */}
+                {/* Flatbed */}
                 <div className="border-r-2 border-border p-6">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Drayage</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Port-to-Inland Movement</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Flatbed</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Energy Pipe & Steel</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Expert coordination of containerized chemical and industrial cargo from ports to inland destinations. We manage carrier sourcing, appointments, and execution across the Southeast and Gulf Coast.
+                    Our core specialty: flatbed transportation for energy pipe, steel, and construction materials. Serving energy and construction industries across Texas, Louisiana, and Oklahoma with $3K–$8K average ticket size.
                   </p>
                 </div>
 
-                {/* Short-Haul */}
+                {/* Heavy Haul */}
                 <div className="border-r-2 border-border p-6">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Short-Haul</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Regional Transportation</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Heavy Haul</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Construction & Energy Equipment</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Efficient brokerage for short-distance transportation of specialized cargo. We connect shippers with qualified carriers for time-sensitive chemical and industrial movements within regional networks.
+                    Transportation services for large-scale energy and construction projects. We handle large equipment, construction machinery, and energy infrastructure components with $10K–$40K ticket sizes.
                   </p>
                 </div>
 
-                {/* Specialized */}
+                {/* Expedited */}
                 <div className="border-r-2 border-border p-6">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Specialized</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Chemical & Industrial Focus</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Expedited</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Time-Critical Freight</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Dedicated expertise in chemical and industrial cargo handling. Our non-asset model provides flexibility and specialized knowledge for your unique shipping requirements without taking title to freight.
+                    Urgent transportation solutions for oilfield equipment and time-sensitive energy sector freight. High carrier availability in Texas markets with $5K–$15K ticket sizes.
                   </p>
                 </div>
 
-                {/* Logistics Coordination */}
+                {/* Service Models */}
                 <div className="p-6 bg-accent/10">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Full Coordination</h4>
-                  <h5 className="mt-3 font-bold text-foreground">End-to-End Management</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Service Models</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Brokerage, MTP & 3PL</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Complete logistics coordination from origin to destination. We handle carrier assignment, appointment scheduling, documentation, exception resolution, and performance reporting.
+                    We offer three engagement models: Freight Brokerage for transactional needs, Managed Transportation Provider for end-to-end management, and 3PL for comprehensive supply chain solutions.
                   </p>
                 </div>
               </div>
@@ -153,23 +130,23 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Dry Containers
+                      Flatbed Trailers
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Tank Containers
+                      Step Decks
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Flatbed
+                      Lowboys
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Chassis
+                      RGNs (Removable Gooseneck)
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Intermodal
+                      Specialized Equipment
                     </li>
                   </ul>
                 </div>
@@ -180,23 +157,23 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Carrier Sourcing
+                      Freight Brokerage
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Appointment Scheduling
+                      Managed Transportation
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Exception Resolution
+                      3PL Services
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Real-Time Tracking
+                      Carrier Network Management
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      24/7 Dispatch
+                      Strategic Logistics Planning
                     </li>
                   </ul>
                 </div>
@@ -207,23 +184,23 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Gulf Coast Ports
+                      Texas (TX)
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Southeast Region
+                      Louisiana (LA)
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Rail Ramps
+                      Oklahoma (OK)
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Distribution Centers
+                      Gulf Coast Region
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Industrial Facilities
+                      Energy Infrastructure Corridors
                     </li>
                   </ul>
                 </div>
@@ -239,7 +216,7 @@ export default function ServicesPage() {
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Industries We Serve</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              Specialized logistics expertise for chemical and industrial sectors
+              Specialized transportation expertise for energy infrastructure and construction sectors
             </p>
           </div>
 
@@ -263,7 +240,7 @@ export default function ServicesPage() {
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Need a Custom Solution?</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-primary-foreground/90">
-              Contact us to discuss your specific logistics requirements
+              Contact us to discuss your energy infrastructure and construction freight transportation needs
             </p>
             <div className="mt-10">
               <Button size="lg" variant="secondary" asChild>

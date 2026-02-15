@@ -16,9 +16,9 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "StarTex - Drayage & Short-Haul Broker | Houston & Raleigh",
+  title: "StarTex Logistics - Energy Infrastructure Freight | TX, LA, OK",
   description:
-    "StarTex provides drayage and short-haul brokerage services for chemicals and industrial cargo across the Southeast and Gulf Coast. Houston, TX and Raleigh, NC.",
+    "StarTex Logistics specializes in energy infrastructure and construction freight transportation. Freight brokerage, managed transportation, and 3PL services across Texas, Louisiana, and Oklahoma.",
   generator: "v0.app",
   icons: {
     icon: [

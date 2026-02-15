@@ -11,6 +11,29 @@
 
 ---
 
+## About StarTex Logistics
+
+StarTex Logistics is a comprehensive logistics solutions provider operating across three core service verticals:
+
+### 🚛 Freight Brokerage
+- Connecting shippers with reliable carriers
+- Managing transportation transactions
+- Facilitating freight movement across all modes
+
+### 📊 Managed Transportation Provider
+- End-to-end transportation management
+- Strategic logistics planning and optimization
+- Dedicated account management and oversight
+
+### 📦 3PL (Third-Party Logistics)
+- Comprehensive supply chain management
+- Integrated logistics services
+- Value-added logistics solutions
+
+This multi-faceted approach allows StarTex Logistics to serve clients at various stages of their logistics needs, from transactional freight brokerage to comprehensive managed transportation solutions.
+
+---
+
 ## First: What You Should Eliminate Immediately
 
 These are **NOT** startup-friendly without experience:
