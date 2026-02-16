@@ -11,7 +11,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Image src="/logo-star.png" alt="StarTex" width={200} height={60} className="h-10 w-auto" priority />
             <p className="mt-4 text-sm text-primary-foreground/80">
-              Energy infrastructure and construction freight solutions across Texas, Louisiana, and Oklahoma. Freight brokerage, managed transportation, and 3PL services.
+              Chemical manufacturing operational freight solutions across the Gulf Coast and Southeast regions. Freight brokerage, managed transportation, and 3PL services from Houston, TX and Raleigh, NC.
             </p>
           </div>
 
@@ -50,9 +50,9 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider">Services</h3>
             <ul className="mt-4 space-y-2">
+              <li className="text-sm text-primary-foreground/80">Dry Van Services</li>
               <li className="text-sm text-primary-foreground/80">Flatbed Services</li>
-              <li className="text-sm text-primary-foreground/80">Heavy Haul</li>
-              <li className="text-sm text-primary-foreground/80">Expedited Services</li>
+              <li className="text-sm text-primary-foreground/80">Expedited Hot Shot</li>
               <li className="text-sm text-primary-foreground/80">Managed Transportation</li>
             </ul>
           </div>
@@ -64,9 +64,9 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 shrink-0 text-accent" />
                 <div className="text-sm text-primary-foreground/80">
-                  <div>Texas (TX)</div>
-                  <div className="mt-1">Louisiana (LA)</div>
-                  <div className="mt-1">Oklahoma (OK)</div>
+                  <div>Houston, TX</div>
+                  <div className="mt-1">Raleigh, NC</div>
+                  <div className="mt-1">Gulf Coast & Southeast</div>
                 </div>
               </li>
               <li className="flex items-start gap-2">

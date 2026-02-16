@@ -16,27 +16,27 @@ export default function ServicesPage() {
   const industries = [
     {
       icon: Factory,
-      name: "Energy Infrastructure",
+      name: "Chemical Manufacturing",
       description:
-        "Transportation services for energy pipe, steel, and construction materials supporting oil & gas, renewable energy, and energy infrastructure projects across the Gulf Coast.",
+        "Operational freight transportation for chemical manufacturers including raw materials, finished products, packaging supplies, and operational materials across the Gulf Coast and Southeast.",
     },
     {
       icon: Ship,
-      name: "Construction Projects",
+      name: "Packaged Chemicals",
       description:
-        "Heavy haul and flatbed services for large-scale construction projects, including equipment, machinery, and building materials for commercial and industrial development.",
+        "Dry van services for packaged chemicals, specialty chemicals, consumer products, and packaged feedstocks serving chemical manufacturing operations throughout our service area.",
     },
     {
       icon: Container,
-      name: "Oilfield Operations",
+      name: "Bulk Materials",
       description:
-        "Expedited and time-critical transportation for oilfield equipment, drilling supplies, and energy sector freight requiring urgent delivery across Texas, Louisiana, and Oklahoma.",
+        "Flatbed transportation for bulk raw materials, packaging supplies, and large packaged goods for chemical manufacturing facilities across the Gulf Coast and Southeast regions.",
     },
     {
       icon: Waves,
-      name: "Industrial Manufacturing",
+      name: "Time-Critical Operations",
       description:
-        "Reliable transportation for industrial manufacturing facilities moving large equipment, components, and materials throughout the Gulf Coast energy markets.",
+        "Expedited hot shot services for urgent operational supplies, emergency replacement parts, and just-in-time inventory needs for chemical manufacturing operations.",
     },
   ]
 
@@ -51,7 +51,7 @@ export default function ServicesPage() {
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl">Our Services</h1>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-primary-foreground/90">
-              Comprehensive transportation solutions for energy infrastructure and construction freight across Texas, Louisiana, and Oklahoma
+              Comprehensive transportation solutions for chemical manufacturing operational freight across the Gulf Coast and Southeast regions
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           <div className="text-center mb-12">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Service Overview</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              A comprehensive look at our energy infrastructure freight capabilities
+              A comprehensive look at our chemical manufacturing freight capabilities
             </p>
           </div>
 
@@ -82,30 +82,30 @@ export default function ServicesPage() {
 
               {/* Service Columns */}
               <div className="grid grid-cols-4 bg-background">
-                {/* Flatbed */}
+                {/* Dry Van */}
                 <div className="border-r-2 border-border p-6">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Flatbed</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Energy Pipe & Steel</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Dry Van</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Packaged Chemicals & Materials</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Our core specialty: flatbed transportation for energy pipe, steel, and construction materials. Serving energy and construction industries across Texas, Louisiana, and Oklahoma with $3K–$8K average ticket size.
+                    Our core specialty: dry van transportation for packaged chemicals, materials, and supplies. Serving chemical manufacturers across the Gulf Coast and Southeast with $1.5K–$8K average ticket size.
                   </p>
                 </div>
 
-                {/* Heavy Haul */}
+                {/* Flatbed */}
                 <div className="border-r-2 border-border p-6">
-                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Heavy Haul</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Construction & Energy Equipment</h5>
+                  <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Flatbed</h4>
+                  <h5 className="mt-3 font-bold text-foreground">Bulk Materials & Packaging</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Transportation services for large-scale energy and construction projects. We handle large equipment, construction machinery, and energy infrastructure components with $10K–$40K ticket sizes.
+                    Transportation services for bulk raw materials, packaging supplies, and large packaged goods. We handle bulk materials, packaging, and raw material shipments with $2K–$10K ticket sizes.
                   </p>
                 </div>
 
                 {/* Expedited */}
                 <div className="border-r-2 border-border p-6">
                   <h4 className="text-accent font-bold uppercase tracking-wide text-sm">Expedited</h4>
-                  <h5 className="mt-3 font-bold text-foreground">Time-Critical Freight</h5>
+                  <h5 className="mt-3 font-bold text-foreground">Hot Shot – Time-Critical</h5>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Urgent transportation solutions for oilfield equipment and time-sensitive energy sector freight. High carrier availability in Texas markets with $5K–$15K ticket sizes.
+                    Urgent transportation solutions for time-critical operational supplies and emergency replacement parts. High carrier availability in Texas and North Carolina markets with $3K–$15K ticket sizes.
                   </p>
                 </div>
 
@@ -130,19 +130,19 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
+                      Dry Van Trailers
+                    </li>
+                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <span className="h-2 w-2 rounded-full bg-accent" />
                       Flatbed Trailers
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Step Decks
+                      Hot Shot Vehicles
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Lowboys
-                    </li>
-                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <span className="h-2 w-2 rounded-full bg-accent" />
-                      RGNs (Removable Gooseneck)
+                      Refrigerated Trailers
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
@@ -184,23 +184,23 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Texas (TX)
-                    </li>
-                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <span className="h-2 w-2 rounded-full bg-accent" />
-                      Louisiana (LA)
-                    </li>
-                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <span className="h-2 w-2 rounded-full bg-accent" />
-                      Oklahoma (OK)
-                    </li>
-                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <span className="h-2 w-2 rounded-full bg-accent" />
                       Gulf Coast Region
                     </li>
                     <li className="flex items-center gap-2 text-sm text-muted-foreground">
                       <span className="h-2 w-2 rounded-full bg-accent" />
-                      Energy Infrastructure Corridors
+                      Southeast Region
+                    </li>
+                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <span className="h-2 w-2 rounded-full bg-accent" />
+                      Houston, TX Office
+                    </li>
+                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <span className="h-2 w-2 rounded-full bg-accent" />
+                      Raleigh, NC Office
+                    </li>
+                    <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <span className="h-2 w-2 rounded-full bg-accent" />
+                      TX through NC Corridor
                     </li>
                   </ul>
                 </div>
@@ -216,7 +216,7 @@ export default function ServicesPage() {
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Industries We Serve</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              Specialized transportation expertise for energy infrastructure and construction sectors
+              Specialized transportation expertise for chemical manufacturing operations
             </p>
           </div>
 
@@ -240,7 +240,7 @@ export default function ServicesPage() {
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Need a Custom Solution?</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-primary-foreground/90">
-              Contact us to discuss your energy infrastructure and construction freight transportation needs
+              Contact us to discuss your chemical manufacturing operational freight transportation needs
             </p>
             <div className="mt-10">
               <Button size="lg" variant="secondary" asChild>

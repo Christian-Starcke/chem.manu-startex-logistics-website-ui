@@ -104,8 +104,8 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Service Area",
-      details: "Texas, Louisiana, Oklahoma",
-      subtext: "Gulf Coast Region",
+      details: "Gulf Coast & Southeast",
+      subtext: "Houston, TX & Raleigh, NC Offices",
     },
     {
       icon: Clock,
@@ -142,7 +142,7 @@ export default function ContactPage() {
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl">Let's Work Together</h1>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-primary-foreground/90">
-              Whether you're a shipper looking for energy infrastructure freight solutions or a carrier seeking quality freight opportunities, StarTex is your partner in energy and construction logistics across Texas, Louisiana, and Oklahoma.
+              Whether you're a chemical manufacturer looking for operational freight solutions or a carrier seeking quality freight opportunities, StarTex is your partner in chemical manufacturing logistics across the Gulf Coast and Southeast regions.
             </p>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="mt-4 text-xl font-bold">I'm a Shipper</h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  I need reliable flatbed, heavy haul, or expedited services for my energy infrastructure or construction freight
+                  I need reliable dry van, flatbed, or expedited hot shot services for my chemical manufacturing operational freight
                 </p>
                 {userType === "shipper" && (
                   <div className="mt-4 flex items-center justify-center gap-2 text-accent">
@@ -194,7 +194,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="mt-4 text-xl font-bold">I'm a Carrier</h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  I want to join the StarTex carrier network and access energy infrastructure freight opportunities
+                  I want to join the StarTex carrier network and access chemical manufacturing freight opportunities
                 </p>
                 {userType === "carrier" && (
                   <div className="mt-4 flex items-center justify-center gap-2 text-accent">
@@ -251,7 +251,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-3xl font-bold tracking-tight">Ship With StarTex</h2>
                   <p className="mt-4 text-pretty text-muted-foreground">
-                    Tell us about your energy infrastructure or construction freight needs and our team will reach out to discuss how we can help.
+                    Tell us about your chemical manufacturing operational freight needs and our team will reach out to discuss how we can help.
                   </p>
 
                   <form onSubmit={handleShipperSubmit} className="mt-8 space-y-6">
@@ -322,9 +322,9 @@ export default function ContactPage() {
                           className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         >
                           <option value="">Select cargo type</option>
-                          <option value="flatbed">Flatbed - Energy Pipe & Steel</option>
-                          <option value="heavy-haul">Heavy Haul - Construction Equipment</option>
-                          <option value="expedited">Expedited - Time-Critical</option>
+                          <option value="dry-van">Dry Van - Packaged Chemicals & Materials</option>
+                          <option value="flatbed">Flatbed - Bulk Materials & Packaging</option>
+                          <option value="expedited">Expedited Hot Shot - Time-Critical</option>
                           <option value="other">Other</option>
                         </select>
                       </div>
@@ -354,7 +354,7 @@ export default function ContactPage() {
                         name="message"
                         value={shipperForm.message}
                         onChange={handleShipperChange}
-                        placeholder="Describe your typical freight, lanes (TX/LA/OK), and any specific requirements..."
+                        placeholder="Describe your typical freight, lanes (Gulf Coast/Southeast), and any specific requirements..."
                         rows={4}
                       />
                     </div>
@@ -413,7 +413,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-3xl font-bold tracking-tight">Join Our Carrier Network</h2>
                   <p className="mt-4 text-pretty text-muted-foreground">
-                    Partner with StarTex to access consistent freight opportunities in the energy infrastructure and construction freight market across Texas, Louisiana, and Oklahoma.
+                    Partner with StarTex to access consistent freight opportunities in the chemical manufacturing freight market across the Gulf Coast and Southeast regions.
                   </p>
 
                   <form onSubmit={handleCarrierSubmit} className="mt-8 space-y-6">
@@ -512,10 +512,10 @@ export default function ContactPage() {
                           className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         >
                           <option value="">Select equipment</option>
+                          <option value="dry-van">Dry Van</option>
                           <option value="flatbed">Flatbed</option>
-                          <option value="step-deck">Step Deck</option>
-                          <option value="lowboy">Lowboy</option>
-                          <option value="rgn">RGN (Removable Gooseneck)</option>
+                          <option value="hot-shot">Hot Shot</option>
+                          <option value="refrigerated">Refrigerated</option>
                           <option value="multiple">Multiple Types</option>
                         </select>
                       </div>
@@ -530,11 +530,11 @@ export default function ContactPage() {
                           className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         >
                           <option value="">Select area</option>
-                          <option value="texas">Texas (TX)</option>
-                          <option value="louisiana">Louisiana (LA)</option>
-                          <option value="oklahoma">Oklahoma (OK)</option>
-                          <option value="gulf-coast">Gulf Coast Region</option>
-                          <option value="multiple">Multiple States</option>
+                          <option value="gulf-coast">Gulf Coast Region (TX, LA, MS, AL, FL)</option>
+                          <option value="southeast">Southeast Region (GA, SC, NC)</option>
+                          <option value="houston">Houston, TX Area</option>
+                          <option value="raleigh">Raleigh, NC Area</option>
+                          <option value="multiple">Multiple States/Regions</option>
                         </select>
                       </div>
                     </div>
@@ -576,7 +576,7 @@ export default function ContactPage() {
                       <li>Active MC and DOT authority</li>
                       <li>Minimum $1M cargo insurance</li>
                       <li>Clean safety record</li>
-                      <li>Experience with flatbed, heavy haul, or expedited freight</li>
+                      <li>Experience with dry van, flatbed, or expedited hot shot freight</li>
                     </ul>
                   </Card>
 
@@ -695,9 +695,9 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-3xl font-bold tracking-tight">How Can We Help?</h2>
                   <ul className="mt-8 space-y-4">
-                    <li>Energy infrastructure and construction freight solutions</li>
-                    <li>Flatbed, heavy haul, and expedited services</li>
-                    <li>Carrier network access in TX/LA/OK</li>
+                    <li>Chemical manufacturing operational freight solutions</li>
+                    <li>Dry van, flatbed, and expedited hot shot services</li>
+                    <li>Carrier network access in Gulf Coast & Southeast</li>
                     <li>Freight brokerage, managed transportation, and 3PL services</li>
                   </ul>
 
@@ -729,7 +729,7 @@ export default function ContactPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold tracking-tight">Contact Information</h2>
-              <p className="mt-4 text-muted-foreground">Reach out to us directly for energy infrastructure freight solutions</p>
+              <p className="mt-4 text-muted-foreground">Reach out to us directly for chemical manufacturing freight solutions</p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {contactInfo.map((info) => (
