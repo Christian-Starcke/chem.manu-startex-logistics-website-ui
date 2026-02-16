@@ -136,8 +136,8 @@ export default function HomePage() {
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <Card key={service.title} className="p-8 transition-shadow hover:shadow-lg">
-                <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-accent mb-6">
-                  <service.icon className="h-7 w-7 text-accent-foreground" />
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary mb-6">
+                  <service.icon className="h-7 w-7 text-primary-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold">{service.title}</h3>
                 <p className="mt-3 text-pretty leading-relaxed text-muted-foreground">{service.description}</p>
