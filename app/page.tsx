@@ -4,23 +4,23 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
 import Image from "next/image"
-import { Ship, Truck, Waves, Shield, Clock, Award, Users, Globe, CheckCircle } from "lucide-react"
+import { Package, Truck, Zap, Shield, Clock, Award, Users, Globe, CheckCircle } from "lucide-react"
 
 export default function HomePage() {
   const services = [
     {
-      icon: Truck,
+      icon: Package,
       title: "Dry Van – Packaged Chemicals",
       description:
         "Specialized dry van transportation for packaged chemicals, materials, and supplies serving chemical manufacturers across the Gulf Coast and Southeast.",
     },
     {
-      icon: Ship,
+      icon: Truck,
       title: "Flatbed – Bulk Materials",
       description: "Transportation services for bulk raw materials, packaging supplies, and large packaged goods for chemical manufacturing operations.",
     },
     {
-      icon: Waves,
+      icon: Zap,
       title: "Expedited Hot Shot",
       description: "Urgent transportation solutions for time-critical operational supplies, emergency replacement parts, and just-in-time inventory needs.",
     },
@@ -136,10 +136,10 @@ export default function HomePage() {
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <Card key={service.title} className="p-8 transition-shadow hover:shadow-lg">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent">
-                  <service.icon className="h-6 w-6 text-accent-foreground" />
+                <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-accent mb-6">
+                  <service.icon className="h-7 w-7 text-accent-foreground" />
                 </div>
-                <h3 className="mt-6 text-xl font-semibold">{service.title}</h3>
+                <h3 className="text-xl font-semibold">{service.title}</h3>
                 <p className="mt-3 text-pretty leading-relaxed text-muted-foreground">{service.description}</p>
               </Card>
             ))}
