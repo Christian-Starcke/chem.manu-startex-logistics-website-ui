@@ -65,7 +65,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative bg-primary text-primary-foreground">
-        <div className="absolute inset-0 bg-[url('/industrial-port-containers-dusk.jpg')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/hero-home-chemical-freight.jpg')] bg-cover bg-center opacity-30" />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
@@ -112,8 +112,8 @@ export default function HomePage() {
 
             <div className="aspect-square overflow-hidden rounded-lg lg:aspect-auto lg:h-full lg:min-h-[400px]">
               <Image
-                src="/logistics-coordination.jpg"
-                alt="StarTex logistics coordination"
+                src="/about-chemical-freight.jpg"
+                alt="Dry van truck being loaded with palletized chemical containers at a chemical manufacturing plant"
                 width={800}
                 height={800}
                 className="h-full w-full object-cover"
