@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
-import { Ship, Container, Waves, Factory } from "lucide-react"
+import { FlaskConical, Package, Container, Timer } from "lucide-react"
 
 export default function ServicesPage() {
   useEffect(() => {
@@ -15,13 +15,13 @@ export default function ServicesPage() {
 
   const industries = [
     {
-      icon: Factory,
+      icon: FlaskConical,
       name: "Chemical Manufacturing",
       description:
         "Operational freight transportation for chemical manufacturers including raw materials, finished products, packaging supplies, and operational materials across the Gulf Coast and Southeast.",
     },
     {
-      icon: Ship,
+      icon: Package,
       name: "Packaged Chemicals",
       description:
         "Dry van services for packaged chemicals, specialty chemicals, consumer products, and packaged feedstocks serving chemical manufacturing operations throughout our service area.",
@@ -33,7 +33,7 @@ export default function ServicesPage() {
         "Flatbed transportation for bulk raw materials, packaging supplies, and large packaged goods for chemical manufacturing facilities across the Gulf Coast and Southeast regions.",
     },
     {
-      icon: Waves,
+      icon: Timer,
       name: "Time-Critical Operations",
       description:
         "Expedited hot shot services for urgent operational supplies, emergency replacement parts, and just-in-time inventory needs for chemical manufacturing operations.",
