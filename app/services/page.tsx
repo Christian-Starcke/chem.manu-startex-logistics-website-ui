@@ -46,7 +46,7 @@ export default function ServicesPage() {
 
       {/* Hero Section */}
       <section className="relative min-h-[50vh] bg-primary text-primary-foreground lg:min-h-[55vh]">
-        <div className="absolute inset-0 bg-[url('/hero-services-fleet.jpg')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('/hero-services-fleet.jpg')] bg-cover bg-center opacity-50" />
         <div className="relative mx-auto flex min-h-[50vh] items-end max-w-7xl px-4 py-20 sm:px-6 sm:py-24 lg:min-h-[55vh] lg:items-center lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl">Our Services</h1>
