@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
-import { FlaskConical, Package, Container, Timer } from "lucide-react"
+import { Factory, Package, Container, Timer } from "lucide-react"
 
 export default function ServicesPage() {
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function ServicesPage() {
 
   const industries = [
     {
-      icon: FlaskConical,
+      icon: Factory,
       name: "Chemical Manufacturing",
       description:
         "Operational freight transportation for chemical manufacturers including raw materials, finished products, packaging supplies, and operational materials across the Gulf Coast and Southeast.",
