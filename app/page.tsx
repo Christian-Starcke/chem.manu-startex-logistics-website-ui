@@ -4,23 +4,23 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
 import Image from "next/image"
-import { Package, Truck, Zap, Shield, Clock, Award, Users, Globe, CheckCircle } from "lucide-react"
+import { Truck, Container, Timer, Shield, Clock, Award, Users, Globe, CheckCircle } from "lucide-react"
 
 export default function HomePage() {
   const services = [
     {
-      icon: Package,
+      icon: Truck,
       title: "Dry Van – Packaged Chemicals",
       description:
         "Specialized dry van transportation for packaged chemicals, materials, and supplies serving chemical manufacturers across the Gulf Coast and Southeast.",
     },
     {
-      icon: Truck,
+      icon: Container,
       title: "Flatbed – Bulk Materials",
       description: "Transportation services for bulk raw materials, packaging supplies, and large packaged goods for chemical manufacturing operations.",
     },
     {
-      icon: Zap,
+      icon: Timer,
       title: "Expedited Hot Shot",
       description: "Urgent transportation solutions for time-critical operational supplies, emergency replacement parts, and just-in-time inventory needs.",
     },
