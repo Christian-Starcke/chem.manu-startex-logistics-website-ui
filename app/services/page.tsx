@@ -210,11 +210,11 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Industries Served */}
+      {/* Service Specializations */}
       <section className="bg-muted py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Industries We Serve</h2>
+            <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Our Service Specializations</h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
               Specialized transportation expertise for chemical manufacturing operations
             </p>
