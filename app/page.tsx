@@ -140,7 +140,7 @@ export default function HomePage() {
                   <service.icon className="h-7 w-7 text-accent-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold">{service.title}</h3>
-                <p className="mt-3 text-pretty leading-relaxed text-muted-foreground">{service.description}</p>
+                <p className="mt-3 text-left text-pretty leading-relaxed text-muted-foreground">{service.description}</p>
               </Card>
             ))}
           </div>
