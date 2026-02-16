@@ -2,64 +2,76 @@
 
 ## Who We Are
 
-StarTex Logistics is a comprehensive logistics solutions provider specializing in energy infrastructure and construction freight across the Gulf Coast region. We deliver solutions through three core service models:
+StarTex Logistics is a specialized freight brokerage focused on serving chemical manufacturers across the Gulf Coast and Southeast regions. We operate from strategic locations in Houston, TX and Raleigh, NC, providing comprehensive transportation services for chemical manufacturing operations—connecting manufacturers with certified carriers for raw materials, finished products, and operational supplies.
 
-- **Freight Brokerage** - Connecting shippers with reliable carriers for transactional freight movement
-- **Managed Transportation Provider** - End-to-end transportation management and strategic logistics optimization
-- **3PL (Third-Party Logistics)** - Comprehensive supply chain management and integrated logistics services
+We deliver solutions through three core service models:
+
+- **Freight Brokerage** - Connecting chemical manufacturers with specialized, certified carriers for operational freight movement
+- **Managed Transportation Provider** - End-to-end transportation management and strategic logistics optimization for chemical manufacturing operations
+- **3PL (Third-Party Logistics)** - Comprehensive supply chain management and integrated logistics services for chemical manufacturers
 
 ---
 
 ## Our Market Niche
 
-StarTex Logistics specializes in energy infrastructure and construction freight transportation across multiple service types:
+StarTex Logistics specializes in operational freight transportation for chemical manufacturers across multiple service types:
 
-### Primary Focus: Flatbed Energy Infrastructure Freight
+### Primary Focus: Dry Van – Packaged Chemicals & Materials
 
-**Flatbed – Energy Pipe & Steel** transportation is our core specialty, serving the energy and construction industries across Texas, Louisiana, and Oklahoma.
+**Dry Van – Packaged Chemicals & Materials** transportation is our core specialty, serving chemical manufacturers across the Gulf Coast and Southeast regions.
 
 **Why This Niche?**
 
-✅ **Large Carrier Pool** - Abundant carrier availability in TX/LA/OK markets  
-✅ **Energy-Adjacent** - Strategic positioning in Gulf Coast energy markets  
-✅ **Low Regulatory Burden** - No hazmat authority or special insurance requirements  
-✅ **Scalable Volume** - Strong potential for consistent, repeatable business  
-✅ **Optimal Ticket Size** - Average $3K–$8K per load with 12–18% margin potential  
+✅ **Large Carrier Pool** - Abundant carrier availability in Gulf Coast/Southeast markets  
+✅ **Chemical Industry Focus** - Strategic positioning in major chemical manufacturing corridors  
+✅ **Low Regulatory Burden** - No hazmat authority required for non-hazmat packaged goods  
+✅ **Consistent Demand** - Ongoing operational freight needs from chemical manufacturers  
+✅ **Optimal Ticket Size** - Average $1.5K–$8K per load with 12–18% margin potential  
+✅ **Scalable Volume** - Strong potential for 300–500 loads per year  
+✅ **Strategic Coverage** - Dual-office positioning (Houston, TX + Raleigh, NC) provides comprehensive regional coverage
 
-### Secondary Focus: Heavy Haul Construction / Energy Equipment
+**Typical Freight:**
+- Packaged chemicals (drums, totes, pails, bags)
+- Finished products (consumer chemicals, specialty chemicals)
+- Raw materials (packaged feedstocks, ingredients)
+- Packaging supplies (containers, labels, packaging materials)
+- Operational supplies (maintenance parts, equipment components)
 
-We provide **Heavy Haul Construction / Energy Equipment** transportation services for large-scale energy and construction projects.
+### Secondary Focus: Flatbed – Bulk Materials & Packaging
+
+We provide **Flatbed – Bulk Materials & Packaging** transportation services for bulk raw materials, packaging supplies, and large packaged goods.
 
 **Service Details:**
-- **Ticket Size:** $10K–$40K per load
-- **Margin Potential:** 15–25%
-- **Regulatory Burden:** Low (non-hazmat)
-- **Carrier Availability:** Moderate
-- **Ideal For:** Large equipment, construction machinery, energy infrastructure components
+- **Ticket Size:** $2K–$10K per load
+- **Margin Potential:** 12–18%
+- **Regulatory Burden:** Very Low
+- **Carrier Availability:** High (Gulf Coast/Southeast)
+- **Ideal For:** Bulk raw materials, packaging supplies, large packaged goods, non-hazmat bulk materials
 
 **Why We Offer This:**
-✅ Higher ticket size with strong margin potential  
-✅ Low regulatory complexity (non-hazmat)  
-✅ Strong fit for energy and construction markets  
-✅ Efficient load-to-revenue ratio for large-scale projects  
+✅ Good volume potential (250–400 loads/year)  
+✅ High carrier availability in target markets  
+✅ Very low regulatory complexity  
+✅ Strong fit for chemical manufacturing operational needs  
+✅ Efficient operational model for bulk materials
 
-### Additional Service: Expedited / Time-Critical
+### Additional Service: Expedited Hot Shot – Time-Critical Supplies
 
-We offer **Expedited / Time-Critical** transportation services, particularly for oilfield and energy sector time-sensitive shipments.
+We offer **Expedited Hot Shot – Time-Critical Supplies** transportation services for urgent operational needs, emergency replacement parts, and just-in-time inventory requirements.
 
 **Service Details:**
-- **Ticket Size:** $5K–$15K per load
+- **Ticket Size:** $3K–$15K per load
 - **Margin Potential:** 15–25%
 - **Regulatory Burden:** Low
-- **Carrier Availability:** High (especially in Texas)
-- **Ideal For:** Urgent oilfield equipment, time-critical energy sector freight, expedited deliveries
+- **Carrier Availability:** High (especially in Texas and North Carolina)
+- **Ideal For:** Time-critical operational supplies, emergency replacement parts, plant maintenance equipment, urgent material deliveries
 
 **Why We Offer This:**
-✅ High carrier availability in Texas markets  
+✅ High carrier availability in Texas and North Carolina markets  
 ✅ Strong margin potential (15–25%)  
 ✅ Low regulatory burden  
 ✅ Efficient operational model for time-sensitive freight  
-✅ Strong fit for energy sector urgent needs
+✅ Strong fit for chemical manufacturers' urgent operational needs
 
 ---
 
@@ -67,50 +79,72 @@ We offer **Expedited / Time-Critical** transportation services, particularly for
 
 ### Value Proposition
 
-**For Shippers:**
-- Deep carrier network in Gulf Coast energy markets (TX/LA/OK)
-- Specialized expertise in energy infrastructure and construction freight
-- Reliable, consistent service with low regulatory complexity
+**For Chemical Manufacturers:**
+- Deep carrier network in Gulf Coast and Southeast chemical manufacturing markets
+- Specialized expertise in chemical industry operational freight
+- Reliable, consistent service with low regulatory complexity (non-hazmat focus)
 - Flexible service options from transactional freight brokerage to comprehensive managed transportation
-- Coverage across flatbed, heavy haul, and expedited services
+- Coverage across dry van, flatbed, and expedited hot shot services
+- Strategic geographic positioning with dual-office coverage (Houston, TX + Raleigh, NC)
+- Focus on day-to-day operational freight needs (raw materials, finished products, packaging, supplies)
 
 **For Carriers:**
-- Consistent freight opportunities in energy and construction sectors
+- Consistent freight opportunities in chemical manufacturing sector
 - Fair, competitive rates with strong margin potential
 - Professional, efficient operations and communication
 - Long-term partnership approach
-- Access to diverse freight types (flatbed, heavy haul, expedited)
+- Access to diverse freight types (dry van, flatbed, expedited hot shot)
+- Strong regional coverage across Gulf Coast and Southeast markets
 
 ---
 
 ## Geographic Focus
 
 **Primary Markets:**
-- Texas (TX)
-- Louisiana (LA)  
-- Oklahoma (OK)
+- **Gulf Coast Region:** Texas (TX), Louisiana (LA), Mississippi (MS), Alabama (AL), Florida (FL)
+- **Southeast Region:** Georgia (GA), South Carolina (SC), North Carolina (NC)
+
+**Strategic Office Locations:**
+- **Houston, TX** - Gulf Coast operations hub
+- **Raleigh, NC** - Southeast operations hub
 
 **Service Area:**
-- Gulf Coast region
-- Energy infrastructure corridors
-- Industrial and construction markets
+- Chemical manufacturing corridor from Texas through Gulf Coast and up Southeast to North Carolina
+- Major chemical manufacturing hubs and industrial markets
+- Comprehensive regional coverage for chemical manufacturer clients
 
 ---
 
 ## Competitive Advantages
 
-1. **Specialized Niche Expertise** - Deep focus on energy infrastructure and construction freight across flatbed, heavy haul, and expedited services
-2. **Strategic Geographic Positioning** - Gulf Coast energy market concentration (Texas, Louisiana, Oklahoma)
+1. **Specialized Niche Expertise** - Deep focus on chemical manufacturing operational freight across dry van, flatbed, and expedited hot shot services
+2. **Strategic Geographic Positioning** - Dual-office coverage (Houston, TX + Raleigh, NC) serving Gulf Coast and Southeast chemical manufacturing corridors
 3. **Low Regulatory Friction** - Non-hazmat focus reduces complexity, risk, and operational overhead
-4. **Carrier Network Depth** - Strong relationships and high carrier availability in target markets
+4. **Carrier Network Depth** - Strong relationships and high carrier availability in Gulf Coast and Southeast markets
 5. **Flexible Service Model** - Multiple engagement options: Freight Brokerage, Managed Transportation Provider, and 3PL services
-6. **Multi-Service Capability** - Single provider for flatbed, heavy haul, and expedited transportation needs
-7. **Scalable Operations** - Lean structure optimized for growth and operational efficiency
+6. **Multi-Service Capability** - Single provider for dry van, flatbed, and expedited hot shot transportation needs
+7. **Operational Focus** - Serving day-to-day operational freight needs rather than one-time construction projects
+8. **Consistent Demand** - Chemical manufacturers have ongoing operational freight needs (raw materials in, finished products out)
+9. **Scalable Operations** - Lean structure optimized for growth and operational efficiency
+
+---
+
+## Service Focus
+
+**Operational Freight Types:**
+- **Inbound:** Raw materials, feedstocks, packaging materials, operational supplies, maintenance parts
+- **Outbound:** Finished chemical products, packaged specialty chemicals, consumer chemical products, bulk chemical shipments (non-hazmat)
+- **Operational:** Packaging supplies, maintenance materials, plant supplies, time-critical components
+
+**Equipment Types:**
+- **Dry Van** (Primary) - Packaged chemicals, materials, supplies
+- **Flatbed** (Support) - Bulk materials, packaging, raw materials
+- **Expedited Hot Shot** (Selective) - Time-critical operational supplies
 
 ---
 
 ## Contact & Partnership
 
-StarTex Logistics is positioned to be your trusted partner for energy infrastructure and construction freight in the Gulf Coast region. Whether you need transactional freight brokerage, expedited time-critical shipments, heavy haul services, or comprehensive managed transportation solutions, we're built to deliver.
+StarTex Logistics is positioned to be your trusted logistics partner for chemical manufacturing operational freight across the Gulf Coast and Southeast regions. Whether you need transactional freight brokerage for packaged chemicals, bulk materials transportation, expedited time-critical shipments, or comprehensive managed transportation solutions, we're built to deliver.
 
-**Ready to move freight?** Let's discuss how StarTex Logistics can optimize your energy infrastructure and construction transportation needs across Texas, Louisiana, and Oklahoma.
+**Ready to move freight?** Let's discuss how StarTex Logistics can optimize your chemical manufacturing transportation needs across the Gulf Coast and Southeast, from Texas through North Carolina.
