@@ -112,8 +112,8 @@ export default function HomePage() {
 
             <div className="aspect-square overflow-hidden rounded-lg lg:aspect-auto lg:h-full lg:min-h-[400px]">
               <Image
-                src="/logistics-coordination.jpg"
-                alt="StarTex logistics coordination"
+                src="/about-chemical-freight.jpg"
+                alt="Dry van truck being loaded with palletized chemical containers at a chemical manufacturing plant"
                 width={800}
                 height={800}
                 className="h-full w-full object-cover"
