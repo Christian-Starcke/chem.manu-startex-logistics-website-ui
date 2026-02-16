@@ -65,7 +65,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] bg-primary text-primary-foreground lg:min-h-[70vh]">
-        <div className="absolute inset-0 bg-[url('/hero-home-chemical-freight.jpg')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-[url('/hero-home-chemical-freight.jpg')] bg-cover bg-[center_55%] opacity-40" />
         <div className="relative mx-auto flex min-h-[60vh] items-end max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:min-h-[70vh] lg:items-center lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
