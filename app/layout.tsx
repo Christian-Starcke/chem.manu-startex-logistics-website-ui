@@ -20,23 +20,7 @@ export const metadata: Metadata = {
   description:
     "StarTex Logistics specializes in chemical manufacturing operational freight transportation. Freight brokerage, managed transportation, and 3PL services for chemical manufacturers across the Gulf Coast and Southeast regions.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  // Next.js automatically detects icon.png and apple-icon.png in the app directory
 }
 
 export default function RootLayout({
